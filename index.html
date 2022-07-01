@@ -4,64 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Pokedex</title>
+    <title>Portafolio</title>
 </head>
 <body>
     <header>
-        <img id="logo" src="assets/images.png" alt="logo">
-        <h1>Mi pokedex</h1>
-    </header>
-    <nav>
+        <img id="logo" src="books/imagen1.png" alt="logo">
+        <h1>Mi Portafolio.</h1>
+     </header>
+     <hr>
+     <nav>
         <a href="#">Inicio</a>
-        <a href="#">Acerca</a>
-    </nav>
-    <hr>
-    <main>
-        <div id="pokedex">
-        <div id="left">
-        <div class="display">
-         <img id="pkmn-img" src="assets/Gleyly.jpg" alt="Pokemon">
-        </div>
-        <div id="dpad">
-         <div id="dpad-top"></div>
-         <div id="dpad-horizontal"></div>
-         <div id="dpad-bottom"></div>
-        </div>
-        <div id="btn-circle"></div>
-        </div>
-        <div id="right">
-         <div class="display">
-        <ul>
-           <li>
-            <p><b>Nombre: </b>Glalie</p>
-           </li>
-           <li>
-            <p><b>Tipo: </b>Hielo</p>
-           </li> 
-           <li>
-            <p><b>Altura: </b>1,5 m</p>
-           </li>
-           <li>
-            <p><b>Peso: </b>256,5 kg</p>
-           </li>
-           <li>
-            <p><b>Descripcion: </b>Ni siquiera el fuego puede derretir su cuerpo de hielo. Es capaz de congelar en un instante la humedad del ambiente.</p>
-           </li>
-        </ul>
-         </div>
-         <div id="pad">
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-         </div>
-       </div>
-   </div>
-</main>
+     </nav>
+     <nav>
+        <a href="#">acerca</a>
+     </nav>
+     <hr>
+     <div>
+     <a href="index.html">
+      <img src="assets/images.png" alt="Pokedex">
+      <p><b>Pokedex.</b></p>
+     </a>
+     </div>
+     <div>
+     <a href="sistema_solar.html">
+        <img src="books/sistemasolar.jpg" alt="Sistema solar">
+        <p><b>Sistema solar.</b></p>
+     </a>
+     </div>
+     <div>
+     <a href="practica_html.html">
+        <img src="pelicula.jpg" alt="películas">
+        <p><b>Películas.</b></p>
+     </a>
+     </div>
+     <div>
+     <a href="index2.html">
+        <img src="books/libros.jpg" alt="Libro">
+        <p><b>Libros.</b></p>
+     </a>
+     </div>
+     <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        header { 
+            background-color: black;
+            color: white;
+            padding: 1%;
+            text-align: center;
+        }
+        #logo {
+            width: 150px;
+            height: 100px;
+        }
+        header > h1 {
+            display: inline-block;
+            margin-left: 30px;
+            text-align: center;
+        }
+        nav {
+            color: white;
+            margin-left: 20px;
+            padding: 2px;
+            display: inline-block;
+        }
+        div {
+            display: inline-block;
+            margin-left: 30px;
+        }
+        a {
+            color: white;
+        }
+        p, b {
+            text-align: center;
+            color: white;
+        }
+    </style>
 </body>
 </html>
